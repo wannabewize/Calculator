@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C333B7E290F61AC00CB1BB8 /* Calculation2.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2C333B7D290F61AC00CB1BB8 /* Calculation2.docc */; };
+		2C333B7F290F61AC00CB1BB8 /* Calculation2.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C333B7C290F61AC00CB1BB8 /* Calculation2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C333B82290F61AC00CB1BB8 /* Calculation2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C333B7A290F61AC00CB1BB8 /* Calculation2.framework */; };
+		2C333B83290F61AC00CB1BB8 /* Calculation2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C333B7A290F61AC00CB1BB8 /* Calculation2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2C333B88290F61B900CB1BB8 /* multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C333B87290F61B900CB1BB8 /* multiply.swift */; };
 		2CDF1F41290ED727005058D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF1F40290ED727005058D6 /* AppDelegate.swift */; };
 		2CDF1F43290ED727005058D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF1F42290ED727005058D6 /* SceneDelegate.swift */; };
 		2CDF1F45290ED727005058D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF1F44290ED727005058D6 /* ViewController.swift */; };
@@ -22,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C333B80290F61AC00CB1BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDF1F35290ED727005058D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C333B79290F61AC00CB1BB8;
+			remoteInfo = Calculation2;
+		};
 		2CDF1F5F290ED740005058D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CDF1F35290ED727005058D6 /* Project object */;
@@ -39,6 +51,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2CDF1F62290ED740005058D6 /* Calculation.framework in Embed Frameworks */,
+				2C333B83290F61AC00CB1BB8 /* Calculation2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		2C333B55290F585E00CB1BB8 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		2C333B7A290F61AC00CB1BB8 /* Calculation2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Calculation2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C333B7C290F61AC00CB1BB8 /* Calculation2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculation2.h; sourceTree = "<group>"; };
+		2C333B7D290F61AC00CB1BB8 /* Calculation2.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Calculation2.docc; sourceTree = "<group>"; };
+		2C333B87290F61B900CB1BB8 /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
 		2CDF1F3D290ED727005058D6 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDF1F40290ED727005058D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDF1F42290ED727005058D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,11 +80,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C333B77290F61AC00CB1BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CDF1F3A290ED727005058D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2CDF1F61290ED740005058D6 /* Calculation.framework in Frameworks */,
+				2C333B82290F61AC00CB1BB8 /* Calculation2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C333B7B290F61AC00CB1BB8 /* Calculation2 */ = {
+			isa = PBXGroup;
+			children = (
+				2C333B7C290F61AC00CB1BB8 /* Calculation2.h */,
+				2C333B7D290F61AC00CB1BB8 /* Calculation2.docc */,
+				2C333B87290F61B900CB1BB8 /* multiply.swift */,
+			);
+			path = Calculation2;
+			sourceTree = "<group>";
+		};
 		2CDF1F34290ED727005058D6 = {
 			isa = PBXGroup;
 			children = (
 				2C333B55290F585E00CB1BB8 /* Package.swift */,
 				2CDF1F3F290ED727005058D6 /* MyApp */,
 				2CDF1F5A290ED740005058D6 /* Calculation */,
+				2C333B7B290F61AC00CB1BB8 /* Calculation2 */,
 				2CDF1F3E290ED727005058D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +132,7 @@
 			children = (
 				2CDF1F3D290ED727005058D6 /* MyApp.app */,
 				2CDF1F59290ED740005058D6 /* Calculation.framework */,
+				2C333B7A290F61AC00CB1BB8 /* Calculation2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +165,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C333B75290F61AC00CB1BB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C333B7F290F61AC00CB1BB8 /* Calculation2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CDF1F54290ED740005058D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +184,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C333B79290F61AC00CB1BB8 /* Calculation2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C333B84290F61AC00CB1BB8 /* Build configuration list for PBXNativeTarget "Calculation2" */;
+			buildPhases = (
+				2C333B75290F61AC00CB1BB8 /* Headers */,
+				2C333B76290F61AC00CB1BB8 /* Sources */,
+				2C333B77290F61AC00CB1BB8 /* Frameworks */,
+				2C333B78290F61AC00CB1BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calculation2;
+			productName = Calculation2;
+			productReference = 2C333B7A290F61AC00CB1BB8 /* Calculation2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2CDF1F3C290ED727005058D6 /* MyApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CDF1F51290ED727005058D6 /* Build configuration list for PBXNativeTarget "MyApp" */;
@@ -152,6 +215,7 @@
 			);
 			dependencies = (
 				2CDF1F60290ED740005058D6 /* PBXTargetDependency */,
+				2C333B81290F61AC00CB1BB8 /* PBXTargetDependency */,
 			);
 			name = MyApp;
 			productName = MyApp;
@@ -186,6 +250,9 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					2C333B79290F61AC00CB1BB8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					2CDF1F3C290ED727005058D6 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -209,11 +276,19 @@
 			targets = (
 				2CDF1F3C290ED727005058D6 /* MyApp */,
 				2CDF1F58290ED740005058D6 /* Calculation */,
+				2C333B79290F61AC00CB1BB8 /* Calculation2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C333B78290F61AC00CB1BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CDF1F3B290ED727005058D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +309,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C333B76290F61AC00CB1BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C333B7E290F61AC00CB1BB8 /* Calculation2.docc in Sources */,
+				2C333B88290F61B900CB1BB8 /* multiply.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CDF1F39290ED727005058D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +341,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C333B81290F61AC00CB1BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C333B79290F61AC00CB1BB8 /* Calculation2 */;
+			targetProxy = 2C333B80290F61AC00CB1BB8 /* PBXContainerItemProxy */;
+		};
 		2CDF1F60290ED740005058D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2CDF1F58290ED740005058D6 /* Calculation */;
@@ -284,6 +373,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2C333B85290F61AC00CB1BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wannabewize.ios-samples.Calculation2";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C333B86290F61AC00CB1BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.wannabewize.ios-samples.Calculation2";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2CDF1F4F290ED727005058D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -527,6 +678,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C333B84290F61AC00CB1BB8 /* Build configuration list for PBXNativeTarget "Calculation2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C333B85290F61AC00CB1BB8 /* Debug */,
+				2C333B86290F61AC00CB1BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2CDF1F38290ED727005058D6 /* Build configuration list for PBXProject "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
