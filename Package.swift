@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Calculator",
+    name: "Calculator2",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "Calculator", targets: ["Calculator"])
+        .library(name: "Calculator2", targets: ["Calculator2"])
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "Calculator", path: "Calculator.xcframework")
+        .binaryTarget(name: "Calculator2", path: "Calculator2.xcframework")
     ]
 )

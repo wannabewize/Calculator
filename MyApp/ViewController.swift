@@ -7,6 +7,7 @@
 
 import UIKit
 import Calculation
+import Calculation2
 
 class ViewController: UIViewController {
 
@@ -16,5 +17,7 @@ class ViewController: UIViewController {
         print("10 + 20 = ", add(a: 10, b: 20))
         print("20 + 30 = ", Calculation.add(a: 20, b: 30))
         print("10 - 20 = ", minus(a: 10, b: 20))
+        
+        print("10 * 10 = ", multiply(a: 10, b: 10))
     }
 }
