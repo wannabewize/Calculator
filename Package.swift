@@ -7,7 +7,7 @@ let package = Package(
     name: "Calculator",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "Calculator", targets: ["Calculagtor"])
+        .library(name: "Calculator", targets: ["Calculator"])
     ],
     dependencies: [],
     targets: [
